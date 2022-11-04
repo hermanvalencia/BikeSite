@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,800;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container " id="bike">
+        <nav>
+        <img src="logo.png" class="logo">
+        <a href="#" class="btn">Test Drive</a>
+        </nav>
+        <div class="content">
+            <h2>YAMAHA</h2>
+            <H1>Fazzio</H1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
+                 voluptatibus mollitia nihil optio ipsa perferendis blanditiis culpa pariatur 
+                 sit nemo voluptates,
+                 totam adipisci sint eum! Excepturi similique consequuntur
+                  suscipit eligendi.</p>
+                  <h3>Choose your colour</h3>
+
+                  <div class="colour-select">
+                    <div id="white"></div>
+                    <div id="red"></div>
+                    <div id="blue"></div>
+                  </div>
+        </div>
+    </div>
+
+<script>
+     let redBtn = document.getElementById("red");
+     let whiteBtn = document.getElementById("white");
+     let blueBtn = document.getElementById("blue");
+     let bike = document.getElementById("bike");
+     
+
+
+     redBtn.onclick = function(){
+        bike.style.backgroundImage = "url(sc2.jpg)"
+       
+       
+       
+      
+     }
+
+     blueBtn.onclick = function(){
+        bike.style.backgroundImage = "url(sc3.jpg)"
+      
+      
+     
+     }
+
+     whiteBtn.onclick = function(){
+        bike.style.backgroundImage = "url(sc1.jpg)"
+       
+        
+        
+     }
+
+    
+</script>
+
+
+</body>
+</html>

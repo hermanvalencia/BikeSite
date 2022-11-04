@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(sc1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px 10%;
+    transition: background-image 0.3s;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo{
+    width: 250px;
+    cursor: pointer;
+}
+
+nav .btn{
+    text-decoration: none;
+    color: #fff;
+    background: #009fc1;
+    padding: 15px 50px;
+    border-radius: 30px;
+}
+
+.content{
+    margin-top: 10%;
+}
+
+.content h2{
+    color: red;
+    font: 34px;
+}
+
+.content h1{
+    font-size: 100px;
+    color: #222;
+    margin-top: -25px;
+
+}
+
+.content p{
+    max-width: 380px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #555;
+}
+
+.content h3{
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.colour-select div{
+    background: #333;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.colour-select{
+    display: flex;
+    margin: 30px;
+}
+
+.colour-select #red{
+    background: #bd1000;
+
+}
+
+.colour-select #blue{
+    background: #009dbd;
+
+}
+
+.colour-select #white{
+    background: #d6cdcb;
+}
+
+@media screen and (max-width: 600px){
+    nav .logo{
+        width: 160px;
+        cursor: pointer;
+    }
+
+    .content h2{
+        color: red;
+        font: 20px;
+    }
+
+    .content h1{
+        font-size: 70px;
+        color: #222;
+        margin-top: -15px;
+        margin-bottom: 12px;
+    
+    }
+
+    .content h3{
+        margin-top: 350px;
+        font-weight: 600;
+        font-size: 30px;
+        
+    }
+
+    .colour-select{
+        display: flex;
+        margin: 30px;
+
+        margin-top: 10px;
+    }
+    #bike{
+        width: 100%;
+        height: 100vh;
+        background-image: url(m1.jpg);
+        background-size: cover;
+        background-position: center;
+        padding: 20px 10%;
+        transition: background-image 0.3s;
+    }
+   
+}
